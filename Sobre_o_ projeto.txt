@@ -1,0 +1,3 @@
+Autor: Gregory Pacheco
+Projetando um blog.
+No momento o instrutor está usando o django versão 3.
