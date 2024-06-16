@@ -12,6 +12,7 @@ class Post(models.Model):
     categories = models.CharField(max_length=2, 
                                   choices=Categorias.choices, 
                                   default=Categorias.GR)
+    image = models.ImageField(upload_to="posts", null=True, blank=True)
 
     def __str__(self):
         return self.title
