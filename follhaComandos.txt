@@ -38,6 +38,12 @@ git push -u origin master(colocar -u apenas no início)
 git remote add origin url_do_repositório
 git remote add origin https://github.com/marciosebastiao4758/testeDjango.git  
 
+12)Listando os repositórios remotos:
+git remote -v
+
+13)Listar branchs:
+git branch -v
+
 
 
 
