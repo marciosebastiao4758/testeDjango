@@ -1,0 +1,43 @@
+1)Ativar o ambiente virtual:
+venv/bin/activate (no linux)
+venv/scripts/activate (no windows)
+
+2)Criar o projeto:
+django-admin startproject nome_do_projeto .
+
+3)Rodar o projeto django:
+python manage.py runserver
+
+4)Parar o servidor:
+ctrl + c
+
+5)Criar tabelas no banco de dados:
+python manage.py migrate
+
+6)Criar um surper usuário:
+python manage.py createsuperuser
+
+7)Criar um app:
+python manage.py startapp nome_do_app
+
+8)Registrar seu app no settings
+
+9)Criar git repositório na pasta do projeto:
+git init
+
+10)Mostrar o histórico do repositório:
+git status
+
+11)Fazer um commit:
+git add *
+git commit -m "mensagem"
+git push origin master
+git push -u origin master(colocar -u apenas no início)
+
+11)Adicionar o repositório remoto:
+git remote add origin url_do_repositório
+git remote add origin https://github.com/marciosebastiao4758/testeDjango.git  
+
+
+
+
